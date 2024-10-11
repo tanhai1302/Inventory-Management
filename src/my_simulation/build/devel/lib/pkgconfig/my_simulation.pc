@@ -1,0 +1,8 @@
+prefix=/home/hai/catkin_ws/src/my_simulation/build/devel
+
+Name: my_simulation
+Description: Description of my_simulation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

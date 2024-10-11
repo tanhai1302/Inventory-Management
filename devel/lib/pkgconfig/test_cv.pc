@@ -1,0 +1,1 @@
+/home/hai/catkin_ws/devel/.private/test_cv/lib/pkgconfig/test_cv.pc

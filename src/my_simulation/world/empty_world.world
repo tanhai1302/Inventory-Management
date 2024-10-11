@@ -1,0 +1,722 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+	<world name="default">
+		<!-- A global light source -->
+		<include>
+			<uri>model://sun</uri>
+		</include>
+
+		<!-- A ground plane-->
+		<include>
+			<uri>model://ground_plane</uri>
+		</include> 
+		<include>
+			<name>ground 1</name>
+			<uri>model://asphalt_plane</uri>
+			<static>true</static>
+            <pose> -14.34 6.7 0 0 0 0</pose>
+		</include>
+		<include>
+			<name>ground 2</name>
+			<uri>model://asphalt_plane</uri>
+			<static>true</static>
+            <pose> -3.53 6.7 0 0 0 0</pose>
+		</include>
+		<include>
+			<name>ground 3</name>
+			<uri>model://asphalt_plane</uri>
+			<static>true</static>
+            <pose> -3.53 12.9 0 0 0 0</pose>
+		</include>
+		<include>
+			<name>ground 4</name>
+			<uri>model://asphalt_plane</uri>
+			<static>true</static>
+            <pose> -14.34 12.9 0 0 0 0</pose>
+		</include> 
+
+
+		<scene>
+			<ambient>1 1 1 1</ambient> 
+			<shadows>false</shadows>
+		</scene>
+		
+		<!--wall-->
+		<include>
+			<name>building 1</name>
+			<uri>model://building_1</uri>
+            <static>true</static>
+            <pose> -9 9.8 0 0 0 0</pose>
+		</include>
+		<include>
+			<name>building 2</name>
+			<uri>model://building_1</uri>
+            <static>true</static>
+            <pose> -9 9.8 2.5 0 0 0</pose>
+		</include> 
+		<include>
+			<name>building 3</name>
+			<uri>model://building_1</uri>
+            <static>true</static>
+            <pose> -9 9.8 5 0 0 0</pose>
+		</include> 
+		<include>
+			<name>building 4</name>
+			<uri>model://building_1</uri>
+            <static>true</static>
+            <pose> -9 9.8 7.5 0 0 0</pose>
+		</include> 
+		<include>
+			<name>building 5</name>
+			<uri>model://building_1</uri>
+            <static>true</static>
+            <pose> -9 9.8 10 0 0 0</pose>
+		</include> 
+
+		<!--row_1-->
+		 <include>
+		 	<name>shelves 1</name>
+			<uri>model://shelves_high2_2</uri>
+            <static>true</static>
+            <pose> -8.68 3.3 0 0 0 0</pose>
+		</include>
+		<!--row_2-->
+		 <include>
+		 	<name>shelves 2</name>
+			<uri>model://shelves_high2_2</uri>
+            <static>true</static>
+            <pose> -8.68 9.9 0 0 0 0</pose>
+		</include>
+		<!--row_3-->
+		 <include>
+		 	<name>shelves 3</name>
+			<uri>model://shelves_high2_2</uri>
+            <static>true</static>
+            <pose> -8.68 16.5 0 0 0 0</pose>
+		</include>
+
+		<!--1.1-->
+		<include>
+		 	<name>1.1.1</name>
+			<uri>model://box_a1_a2</uri>
+            <static>true</static>
+            <pose> 0 2.67 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>1.1.2</name>
+			<uri>model://box_a3</uri>
+            <static>true</static>
+            <pose> -2.5 2.67 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>1.1.3</name>
+			<uri>model://box_b3_b4</uri>
+            <static>true</static>
+            <pose> -5 2.67 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>1.1.4</name>
+			<uri>model://box_b1</uri>
+            <static>true</static>
+            <pose> -7.5 2.67 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>1.1.5</name>
+			<uri>model://box_c1_c2</uri>
+            <static>true</static>
+            <pose> -10 2.67 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>1.1.6</name>
+			<uri>model://box_c3_c4</uri>
+            <static>true</static>
+            <pose> -12.5 2.67 0.2 0 0 0</pose>
+		</include>
+
+		 <include>
+		 	<name>1.2.2</name>
+			<uri>model://box_d1_d2</uri>
+            <static>true</static>
+            <pose> -2.5 2.67 1.67 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>1.2.3</name>
+			<uri>model://box_d3</uri>
+            <static>true</static>
+            <pose> -5 2.67 1.67 0 0 0</pose>
+		</include>
+
+		 <include>
+		 	<name>1.2.5</name>
+			<uri>model://box_e1_e2</uri>
+            <static>true</static>
+            <pose> -10 2.67 1.67 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>1.2.6</name>
+			<uri>model://box_e3_e4</uri>
+            <static>true</static>
+            <pose> -12.5 2.67 1.67 0 0 0</pose>
+		</include>
+
+		 <include>
+		 	<name>1.3.1</name>
+			<uri>model://box_f1_f2</uri>
+            <static>true</static>
+            <pose> 0 2.67 3.32 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>1.3.2</name>
+			<uri>model://box_f3_f4</uri>
+            <static>true</static>
+            <pose> -2.5 2.67 3.32 0 0 0</pose>
+		</include>
+
+		 <include>
+		 	<name>1.3.7</name>
+			<uri>model://box_g1_g2</uri>
+            <static>true</static>
+            <pose> -15 2.67 3.32 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>1.3.8</name>
+			<uri>model://box_g3</uri>
+            <static>true</static>
+            <pose> -17.5 2.67 3.32 0 0 0</pose>
+		</include>
+
+		 <include>
+		 	<name>1.4.3</name>
+			<uri>model://box_h1_h2</uri>
+            <static>true</static>
+            <pose> -5 2.67 4.93 0 0 0</pose>
+		</include>
+
+		 <include>
+		 	<name>1.4.5</name>
+			<uri>model://box_i1_i2</uri>
+            <static>true</static>
+            <pose> -10 2.67 4.93 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>1.4.6</name>
+			<uri>model://box_i3_i4</uri>
+            <static>true</static>
+            <pose> -12.5 2.67 4.93 0 0 0</pose>
+		</include>
+
+		 <include>
+		 	<name>1.5.1</name>
+			<uri>model://box_j1_j2</uri>
+            <static>true</static>
+            <pose> 0 2.67 6.25 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>1.5.2</name>
+			<uri>model://box_j3</uri>
+            <static>true</static>
+            <pose> -2.5 2.67 6.25 0 0 0</pose>
+		</include>
+
+		 <include>
+		 	<name>1.5.5</name>
+			<uri>model://box_k1_k2</uri>
+            <static>true</static>
+            <pose> -10 2.67 6.25 0 0 0</pose>
+		</include>
+
+
+		 <include>
+		 	<name>1.6.3</name>
+			<uri>model://box_l1_l2</uri>
+            <static>true</static>
+            <pose> -5 2.67 7.72 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>1.6.4</name>
+			<uri>model://box_l3_l4</uri>
+            <static>true</static>
+            <pose> -7.5 2.67 7.72 0 0 0</pose>
+		</include>
+
+		 <include>
+		 	<name>1.7.6</name>
+			<uri>model://box_k3_k4</uri>
+            <static>true</static>
+            <pose> -12.5 2.67 9.37 0 0 0</pose>
+		</include>	 
+		 <include>
+		 	<name>1.8.1</name>
+			<uri>model://box_y3_y4</uri>
+            <static>true</static>
+            <pose> 0 2.67 11 0 0 0</pose>
+		</include>	 
+		<include>
+		 	<name>1.8.8</name>
+			<uri>model://box_w3_w4</uri>
+            <static>true</static>
+            <pose> -17.5 2.67 11 0 0 0</pose>
+		</include>	 
+
+		 <include>
+		 	<name>2.1.2</name>
+			<uri>model://box_m1_m2</uri>
+            <static>true</static>
+            <pose> -2.5 3.95 0.2 0 0 3.14</pose>
+		</include>
+
+		 <include>
+		 	<name>2.1.5</name>
+			<uri>model://box_n1_n2</uri>
+            <static>true</static>
+            <pose> -10 3.95 0.2 0 0 3.14</pose>
+		</include>
+		 <include>
+		 	<name>2.1.6</name>
+			<uri>model://box_n3</uri>
+            <static>true</static>
+            <pose> -12.5 3.95 0.2 0 0 3.14</pose>
+		</include>
+
+		 <include>
+		 	<name>2.2.1</name>
+			<uri>model://box_o1_o2</uri>
+            <static>true</static>
+            <pose> 0 3.95 1.67 0 0 3.14</pose>
+		</include>
+		 <include>
+		 	<name>2.2.2</name>
+			<uri>model://box_o3</uri>
+            <static>true</static>
+            <pose> -2.5 3.95 1.67 0 0 3.14</pose>
+		</include>
+
+
+		 <include>
+		 	<name>2.3.4</name>
+			<uri>model://box_p1_p2</uri>
+            <static>true</static>
+            <pose> -7.5 3.95 3.32 0 0 3.14</pose>
+		</include>
+
+		 <include>
+		 	<name>2.3.8</name>
+			<uri>model://box_y1_y2</uri>
+            <static>true</static>
+            <pose> -17.5 3.95 3.32 0 0 3.14</pose>
+		</include> 
+
+
+		 <include>
+		 	<name>2.4.7</name>
+			<uri>model://box_q1_q2</uri>
+            <static>true</static>
+            <pose> -15 3.95 4.93 0 0 3.14</pose>
+		</include>
+		 <include>
+		 	<name>2.4.8</name>
+			<uri>model://box_q3_q4</uri>
+            <static>true</static>
+            <pose> -17.5 3.95 4.93 0 0 3.14</pose>
+		</include>
+
+
+		 <include>
+		 	<name>2.5.2</name>
+			<uri>model://box_r1_r2</uri>
+            <static>true</static>
+            <pose> -2.5 3.95 6.25 0 0 3.14</pose>
+		</include>
+
+		<include>
+		 	<name>2.5.6</name>
+			<uri>model://box_s1_s2</uri>
+            <static>true</static>
+            <pose> -12.5 3.95 6.25 0 0 3.14</pose>
+		</include>
+
+		 <include>
+		 	<name>2.6.1</name>
+			<uri>model://box_t1_t2</uri>
+            <static>true</static>
+            <pose> 0 3.95 7.72 0 0 3.14</pose>
+		</include>
+		 <include>
+		 	<name>2.6.2</name>
+			<uri>model://box_t3</uri>
+            <static>true</static>
+            <pose> -2.5 3.95 7.72 0 0 3.14</pose>
+		</include>
+
+		 <include>
+		 	<name>2.6.5</name>
+			<uri>model://box_u1_u2</uri>
+            <static>true</static>
+            <pose> -10 3.95 7.72 0 0 3.14</pose>
+		</include>
+
+		 <include>
+		 	<name>2.7.3</name>
+			<uri>model://box_v1_v2</uri>
+            <static>true</static>
+            <pose> -5 3.95 9.37 0 0 3.14</pose>
+		</include>
+		 <include>
+		 	<name>2.7.4</name>
+			<uri>model://box_x1_x2</uri>
+            <static>true</static>
+            <pose> -7.5 3.95 9.37 0 0 3.14</pose>
+		</include>
+		 <include>
+		 	<name>2.7.5</name>
+			<uri>model://box_x3_x4</uri>
+            <static>true</static>
+            <pose> -10 3.95 9.37 0 0 3.14</pose>
+		</include>
+		 <include>
+		 	<name>2.7.8</name>
+			<uri>model://box_w1</uri>
+            <static>true</static>
+            <pose> -17.5 3.95 9.37 0 0 3.14</pose>
+		</include>
+		<include>
+		 	<name>2.8.3</name>
+			<uri>model://box_z1_z2</uri>
+            <static>true</static>
+            <pose> -5 3.95 11 0 0 3.14</pose>
+		</include>
+		 <include>
+		 	<name>2.8.5</name>
+			<uri>model://box_z3_z4</uri>
+            <static>true</static>
+            <pose> -10 3.95 11 0 0 3.14</pose>
+		</include>
+
+		<!--3.1-->
+		<include>
+		 	<name>3.1.1</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> 0 9.28 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.1.2</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -2.5 9.28 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.1.3</name>
+			<uri>model://box_left</uri>
+            <static>true</static>
+            <pose> -5 9.28 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.1.4</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -7.5 9.28 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.1.5</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -10 9.28 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.1.6</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -12.5 9.28 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.1.7</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -15 9.28 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.1.8</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -17.5 9.28 0.2 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.2.2</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -2.5 9.28 1.67 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.2.3</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -5 9.28 1.67 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.2.4</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -7.5 9.28 1.67 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.2.5</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -10 9.28 1.67 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.2.6</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -12.5 9.28 1.67 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.2.7</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -15 9.28 1.67 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.2.8</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -17.5 9.28 1.67 0 0 0</pose>
+		</include>
+		<!--3.3-->
+		 <include>
+		 	<name>3.3.1</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> 0 9.28 3.32 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.3.2</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -2.5 9.28 3.32 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.3.3</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -5 9.28 3.32 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.3.4</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -7.5 9.28 3.32 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.3.5</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -10 9.28 3.32 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.3.6</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -12.5 9.28 3.32 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.3.7</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -15 9.28 3.32 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.3.8</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -17.5 9.28 3.32 0 0 0</pose>
+		</include>
+		<!--3.4-->
+		 <include>
+		 	<name>3.4.1</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> 0 9.28 4.93 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.4.2</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -2.5 9.28 4.93 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.4.3</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -5 9.28 4.93 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.4.4</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -7.5 9.28 4.93 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.4.5</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -10 9.28 4.93 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.4.6</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -12.5 9.28 4.93 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.4.7</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -15 9.28 4.93 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.4.8</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -17.5 9.28 4.93 0 0 0</pose>
+		</include>
+		<!--3.5-->
+		 <include>
+		 	<name>3.5.1</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> 0 9.28 6.25 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.5.2</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -2.5 9.28 6.25 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.5.3</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -5 9.28 6.25 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.5.5</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -10 9.28 6.25 0 0 0</pose>
+		</include>
+		<include>
+		 	<name>3.5.6</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -12.5 9.28 6.25 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.5.7</name>
+			<uri>model://box_right</uri>
+            <static>true</static>
+            <pose> -15 9.28 6.25 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.5.8</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -17.5 9.28 6.25 0 0 0</pose>
+		</include>
+		<!--3.6-->
+		 <include>
+		 	<name>3.6.1</name>
+			<uri>model://box_right</uri>
+            <static>true</static>
+            <pose> 0 9.28 7.72 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.6.2</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -2.5 9.28 7.72 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.6.3</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -5 9.28 7.72 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.6.4</name>
+			<uri>model://box_right</uri>
+            <static>true</static>
+            <pose> -7.5 9.28 7.72 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.6.5</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -10 9.28 7.72 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.6.6</name>
+			<uri>model://box_left</uri>
+            <static>true</static>
+            <pose> -12.5 9.28 7.72 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.6.8</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -17.5 9.28 7.72 0 0 0</pose>
+		</include>
+		<!--3.7-->
+		 <include>
+		 	<name>3.7.1</name>
+			<uri>model://box_right</uri>
+            <static>true</static>
+            <pose> 0 9.28 9.37 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.7.2</name>
+			<uri>model://box_left</uri>
+            <static>true</static>
+            <pose> -2.5 9.28 9.37 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.7.3</name>
+			<uri>model://box_left</uri>
+            <static>true</static>
+            <pose> -5 9.28 9.37 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.7.4</name>
+			<uri>model://box_right</uri>
+            <static>true</static>
+            <pose> -7.5 9.28 9.37 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.7.5</name>
+			<uri>model://box_left</uri>
+            <static>true</static>
+            <pose> -10 9.28 9.37 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.7.6</name>
+			<uri>model://box_left</uri>
+            <static>true</static>
+            <pose> -12.5 9.28 9.37 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.7.7</name>
+			<uri>model://box_right</uri>
+            <static>true</static>
+            <pose> -15 9.28 9.37 0 0 0</pose>
+		</include>
+		 <include>
+		 	<name>3.7.8</name>
+			<uri>model://box_2</uri>
+            <static>true</static>
+            <pose> -17.5 9.28 9.37 0 0 0</pose>
+		</include>	
+
+	</world>
+</sdf>

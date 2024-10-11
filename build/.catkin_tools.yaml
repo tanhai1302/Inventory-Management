@@ -1,0 +1,6 @@
+devel_space: /home/hai/catkin_ws/devel
+install: false
+install_space: /home/hai/catkin_ws/install
+profile: default
+source_space: /home/hai/catkin_ws/src
+workspace: /home/hai/catkin_ws
